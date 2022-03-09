@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time tracking</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="/app.js"></script>
+</head>
+<body>
+
+    <!-- Main Container -->
+
+    <div class="main_page"></div>
+
+    <!-- MAIN CONTAINER -->  
+
+    <div class="main_container">
+
+
+        <div class="report">
+                <div class="report_layout">
+                     <img id="profile" src="/images/20180802_204432-01-modified.png" alt="profile picture"> 
+            <p id="profile-name">Report for</p>
+            <h1 id="roman">Lupan<br>Roman</h1>
+            <div class="dark_blue">
+                <ul id="list">
+
+                    <li>
+                        <button type="button" 
+                        onclick= daily()>Daily</button>
+                    </li>
+
+
+                     <li>
+                        <button type="button" 
+                        onclick= weekly()>Weekly</button>
+                    </li>
+
+                    <li>
+                        <button type="button" 
+                        onclick= monthly()>Monthly</button>
+                    </li> 
+
+                </ul>
+            </div>
+                </div>
+                
+
+            
+        </div>
+
+        <!-- WORK CONTAINER -->
+
+        <div class="work">
+            <div class="bk_img">
+                <img id="suitcase" class="bk_img" src="/images/icon-work.svg" alt="image of a suitcase">
+            <div class="work_container">
+                <h1 id="h">Work</h1>
+                <p id="dots">...</p>
+                <h2 id="worktime" class="time">32hrs</h2>
+                <p class="last" id="workhours">Last week - 36hrs</p>
+        </div>
+        </div>
+        </div>
+
+        <!-- PLAY CONTAINER -->
+
+        <div class="play">
+            <div class="gamepad_img"><img id="gamepad" class="gamepad" src="/images/icon-play.svg" alt="image of a gamepad">
+            <div class="play_text">
+                <h1 id="h">Play</h1>
+                <p id="dots">...</p>
+                <h2 id="playtime" class="time">10hrs</h2>
+                <p id="playhours">Last Week - 8hrs</p>
+        </div>
+        </div>
+        </div>
+
+        <!-- STUDY CONTAINER -->
+
+        <div class="study">
+           <div class="study_img"><img id="book" class="book_img" src="/images/icon-study.svg" alt="image of a book">
+            <div class="study_text">
+            <h1 id="h">Study</h1>
+            <p id="dots">...</p>
+            <h2 id="studytime" class="time">4hrs</h2>
+            <p id="studyhours">Last Week - 7hrs</p>
+        </div>    
+        </div> 
+        </div>
+
+        <!-- EXERCISE CONTAINER -->
+
+        <div class="exercise">
+            <div class="exercise_img"><img id="exercise" class="sapiens_img" src="/images/icon-exercise.svg" alt="image of a human silhouette">
+            <div class="exercise_text">
+            <h1 id="h">Exercise</h1>
+            <p id="dots">...</p>
+            <h2 id="exercisetime" class="time">4hrs</h2>
+            <p id="exercisehours">Last Week - 5hrs</p>
+        </div>
+        </div>
+        </div>
+
+        <!-- SOCIAL CONTAINER -->
+
+        <div class="social">
+            <div class="chat_main"><img id="chat" class="chat_img" src="/images/icon-social.svg" alt="image of an chat icon">
+            <div class="social_text"> 
+            <h1 id="h">Social</h1>
+            <p id="dots">...</p>
+            <h2 id="socialtime" class="time">5hrs</h2>
+            <p id="socialhours">Last Week - 10hrs</p>
+        </div>
+        </div>
+        </div>
+
+        <!-- SELF-CARE CONTAINER -->
+
+        <div class="self-care">
+            <div class="health"><img id="heart" class="hearth_img" src="/images/icon-self-care.svg" alt="image of a heart">
+            <div class="health_text">
+            <h1 id="h">Self Care</h1>
+            <p id="dots">...</p>
+            <h2 id="selfcaretime" class="time">2hrs</h2>
+            <p id="selfcarehours">Last Week - 2hrs</p>
+        </div>
+        </div>
+        </div>
+    
+</body>
+</html>
